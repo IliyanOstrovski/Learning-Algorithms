@@ -1,4 +1,4 @@
-package com.company.SelectionSort;
+package com.company.selectionSort;
 
 public class App {
     public static void main(String[] args) {

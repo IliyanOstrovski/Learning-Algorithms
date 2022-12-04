@@ -1,4 +1,4 @@
-package com.company.BinarySearch;
+package com.company.binarySearch;
 
 public class App {
     public static void main(String[] args) {

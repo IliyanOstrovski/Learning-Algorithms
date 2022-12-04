@@ -1,4 +1,4 @@
-package com.company.InsertionSort;
+package com.company.insertionSort;
 
 public class App {
     public static void main(String[] args) {

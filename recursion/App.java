@@ -1,4 +1,4 @@
-package com.company.Recursion;
+package com.company.recursion;
 
 public class App {
     public static void main(String[] args) {

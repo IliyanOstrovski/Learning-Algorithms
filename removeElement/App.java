@@ -1,4 +1,4 @@
-package com.company.RemoveElement;
+package com.company.removeElement;
 
 public class App {
     public static void main(String[] args) {

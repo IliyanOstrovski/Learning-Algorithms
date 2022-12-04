@@ -1,4 +1,4 @@
-package com.company;
+package com.company.fibonacci;
 
 public class Fibonacci {
     public static void main(String[] args) {
