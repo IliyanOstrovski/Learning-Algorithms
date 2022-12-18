@@ -14,10 +14,22 @@ public  class Main{
 */
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int area = a * a;
-        System.out.println(area);
+
+        System.out.println(sumMN(3 ,3));
+    }
+
+   public static long sumMN (int n , int m){
+        long sum = 0;
+        for (int x = 0; x <n ; x++) {
+            for (int y = 0; y <m; y++) {
+                if (x==y){
+                    for (int i = 0; i <n; i++) {
+                        sum+=i*x*y;
+                    }
+                }
+            }
+        }
+        return sum;
     }
  }
 
