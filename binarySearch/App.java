@@ -6,14 +6,14 @@ public class App {
     }
 
     public static int binarySearch(int[] a, int x){
-        int p=0;
-        int r = a.length-1;
+        int start=0;
+        int end = a.length-1;
 
-        while (p<=r){
-            int q = (p + r)/2;
-            if (x < a[q]) r = q-1;
-            else if (x > a[q]) p =q + 1;
-            else return q;
+        while (start<=end){
+            int mid = (start + end)/2;
+            if (x < a[mid]) end = mid-1;
+            else if (x > a[mid]) start =mid + 1;
+            else return mid;
         }
         return -1;
     }

@@ -13,6 +13,4 @@ public class Fibonacci {
             n2=sum;
         }
     }
-
-
 }
